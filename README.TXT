@@ -29,3 +29,12 @@ it will return an error (I think that's what's wrong)
 13. 0
 14. any invalid value would be set to the field as they are all either positive (replacementValue>=0) or less than the limit
 (including negative)
+15. 3 and 5
+16. a==b
+17. a^b
+18. it won't change the value, but it doesn't serve the purpose I think it was designed for as it doesnt ensure that any display value
+will have the same number of digits
+19. no it doesn't change anything
+20. when adding together two numbers, it will do a normal addition, and then concatenate that addition to the string at the end ("12cat")
+when you begin the line with the string however, it will concatenate the first number with cat, and then the second with the resulting string
+("cat39")
